@@ -2,6 +2,8 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Studio Luciana Pedroso</title>
 
     <link
@@ -179,14 +181,41 @@
       }
 
       @media (max-width: 768px) {
-        header h1 {
-          font-size: 34px;
+        header {
+          padding: 50px 15px;
         }
+
+        header h1 {
+          font-size: 30px;
+        }
+
+        header p {
+          font-size: 15px;
+        }
+
         nav {
           flex-wrap: wrap;
+          gap: 10px;
+          padding: 12px;
         }
+
+        nav button {
+          padding: 8px 16px;
+          font-size: 14px;
+        }
+
+        section {
+          padding: 45px 15px;
+        }
+
         .card {
-          padding: 28px;
+          padding: 24px;
+          border-radius: 22px;
+        }
+
+        .btn {
+          width: 100%;
+          text-align: center;
         }
       }
     </style>
